@@ -13,17 +13,12 @@ body {
     background-repeat: no-repeat;
     background-position: top;
     background-size: contain;
-    padding: 128px 28px 56px 28px ;
+    padding: 128px 28px 56px 28px;
+    font-family: "Bai Jamjuree", sans-serif;
+
 }
 
-main {
-    height: 70vh;
-}
-.icones{
-    display: flex;
-    flex-direction: column;
-  
-}
+
 .grupo-btn {
     display: flex;
     flex-direction: column;
@@ -79,10 +74,10 @@ p {
 
 }
 
-.ultima {
-    background-color: rgba(245, 247, 247, 1)
-}
+.texto p {
+    text-align: left;
 
+}
 
 
 @media (max-width:600px) {
@@ -90,19 +85,111 @@ p {
         display: flex;
 
     }
+
+    .ultima {
+        display: flex;
+        flex-direction: column;
+    }
 }
+
 @media (max-width:1204px) {
     .grupo-btn {
         display: flex;
 
     }
+
+    .icones {
+        width: 50%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        gap: 8px;
+    }
 }
+
+
 @media (min-width:1204px) {
     .grupo-btn {
         display: flex;
+    }
+
+    .texto-imagem {
+        display: flex;
 
     }
+
+    .textos {
+        width: 350px;
+        text-align: start;
+    }
+
+    .texto-imagem picture {
+        margin-left: -290px;
+    }
+
     main {
-    height: 70vh;
+
+        height: 70vh;
+    }
+
+    .icones {
+        width: 70%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 170px 0 160px 0;
+    }
+
+    .icones-cima {
+        width: 50%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+
+
+    }
+
+    footer {
+        display: flex;
+
+    }
+    .footer-links{
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        margin: 0;
+        text-align: left;
+
+    }
+    li{
+        margin: 0;
+    }
 }
+
+footer {
+    background-color: #F5F7F7;
+    width: 100%;
+}
+
+footer * {
+    padding: 8px;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    color: #4C545C;
+
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
 }
