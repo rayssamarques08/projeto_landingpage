@@ -1,0 +1,89 @@
+@media (min-width: 1300px) {
+
+    .text-preset7bold {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        font-weight: 600px;
+    }
+
+    .text-preset7 {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+
+    }
+}
+
+@media (min-width:500px) and (max-width:1299px) {
+    .text-preset1 {
+        font-size: 46px;
+        line-height: 125%;
+        letter-spacing: -0.75px;
+        font-weight: 600px;
+    }
+
+    .text-preset8 {
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+    }
+
+    .text-preset3 {
+        font-size: 36px;
+        line-height: 125%;
+        letter-spacing: -0.6px;
+        font-weight: 600px;
+    }
+
+    .text-preset6 {
+        font-size: 24px;
+        line-height: 125%;
+        letter-spacing: -0.4px;
+        font-weight: 600px;
+    }
+
+    .text-preset7bold {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        font-weight: 600px;
+    }
+}
+
+@media (max-width: 500px) {
+    .text-preset4 {
+        font-size: 32px;
+        line-height: 125%;
+        letter-spacing: -0.5px;
+        font-weight: 600px;
+    }
+
+    .text-preset5 {
+        font-size: 28px;
+        line-height: 125%;
+        letter-spacing: -0.5px;
+        font-weight: 600px;
+    }
+
+    .text-preset6 {
+        font-size: 24px;
+        line-height: 125%;
+        letter-spacing: -0.4px;
+        font-weight: 600px;
+    }
+
+    .text-preset7bold {
+        font-size: 20px;
+        line-height: 150%;
+        letter-spacing: 0.5px;
+        font-weight: 600px;
+    }
+
+    .text-preset8 {
+        font-size: 16px;
+        line-height: 150%;
+        letter-spacing: 0.15px;
+    }
+
+}

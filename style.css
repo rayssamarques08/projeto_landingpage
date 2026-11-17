@@ -3,144 +3,106 @@
     margin: 0 auto;
     font-family: "Bai Jamjuree", sans-serif;
     text-align: center;
+
 }
 
-.geral {
+body {
+    display: flex;
+    flex-direction: column;
     background-image: url(img/Desktop/Bitmap\ 2sombraDesktop.png);
     background-repeat: no-repeat;
+    background-position: top;
+    background-size: contain;
+    padding: 128px 28px 56px 28px ;
+}
+
+main {
+    height: 70vh;
+}
+.icones{
+    display: flex;
+    flex-direction: column;
+  
+}
+.grupo-btn {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.btn {
+    border: none;
+    width: 344px;
+    padding: 16px 8px;
+    border-radius: 28px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    color: white;
+    transition: all 0.3s ease;
+
+}
+
+.btn:hover {
+    opacity: 0.8;
+    transform: translateY(-2px);
+
 }
 
 .btn-IOS {
     background-color: #26BBA4;
-    color: white;
-    height: 56px;
-    width: 318px;
-    border-radius: 28px;
-    font-size: 20px;
-    border: none;
     box-shadow: inset 0 -3px 0px rgba(0, 0, 0, 0.1513);
+    border-bottom: 3px solid #1d907f;
+
 
 }
 
 .btn-Mac {
     background-color: #6174FF;
-    color: white;
-    height: 56px;
-    width: 318px;
-    border-radius: 28px;
-    border: none;
     box-shadow: inset 0 -3px 0px rgba(0, 0, 0, 0.1513);
+    border-bottom: 3px solid hsl(233, 100%, 59%);
+
 }
 
-h1 {
-    font-size: 32px;
-    color: #4C545C;
-}
-
-h2 {
-    font-size: 28px;
-    color: #4C545C;
-}
-
+h1,
+h2,
 h3 {
-    font-size: 24px;
     color: #4C545C;
+    margin-top: 64px;
+    margin-bottom: 16px;
+
+
 }
 
 p {
-    font-size: 16px;
     color: #9EABB2;
-    font-family: "Bai Jamjuree", sans-serif;
-    font-weight: 400px;
-    line-height: 150%;
-    letter-spacing: 0.15px;
+    padding-bottom: 64px;
+
 }
 
-@media (min-width: 1300px) {
-    
-    .text-preset7bold {
-        font-size: 20px;
-        line-height: 150%;
-        letter-spacing: 0.5px;
-        font-weight: 600px;
-    }
-
-    .text-preset7 {
-        font-size: 20px;
-        line-height: 150%;
-        letter-spacing: 0.15px;
-        
-    }
+.ultima {
+    background-color: rgba(245, 247, 247, 1)
 }
 
-@media (min-width:500px) and (max-width:1299px) {
-    .text-preset1 {
-        font-size: 46px;
-        line-height: 125%;
-        letter-spacing: -0.75px;
-        font-weight: 600px;
-    }
 
-    .text-preset8 {
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.15px;
-    }
 
-    .text-preset3 {
-        font-size: 36px;
-        line-height: 125%;
-        letter-spacing: -0.6px;
-        font-weight: 600px;
-    }
+@media (max-width:600px) {
+    .grupo-btn {
+        display: flex;
 
-    .text-preset6 {
-        font-size: 24px;
-        line-height: 125%;
-        letter-spacing: -0.4px;
-        font-weight: 600px;
-    }
-     .text-preset7bold {
-        font-size: 20px;
-        line-height: 150%;
-        letter-spacing: 0.5px;
-        font-weight: 600px;
     }
 }
+@media (max-width:1204px) {
+    .grupo-btn {
+        display: flex;
 
-@media (max-width: 500px) {
-    .text-preset4 {
-        font-size: 32px;
-        line-height: 125%;
-        letter-spacing: -0.5px;
-        font-weight: 600px;
     }
+}
+@media (min-width:1204px) {
+    .grupo-btn {
+        display: flex;
 
-    .text-preset5 {
-        font-size: 28px;
-        line-height: 125%;
-        letter-spacing: -0.5px;
-        font-weight: 600px;
     }
-
-    .text-preset6 {
-        font-size: 24px;
-        line-height: 125%;
-        letter-spacing: -0.4px;
-        font-weight: 600px;
-    }
-
-    .text-preset7bold {
-        font-size: 20px;
-        line-height: 150%;
-        letter-spacing: 0.5px;
-        font-weight: 600px;
-    }
-
-    .text-preset8 {
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.15px;
-    }
-
+    main {
+    height: 70vh;
+}
 }
